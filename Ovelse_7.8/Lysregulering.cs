@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ovelse_7._8
 {
-    private string? Farve;
-
     internal class Lysregulering
     {
-        
+        private string? Farve;
+        public Lysregulering()
+        {
+            Farve = "Rød";
+        }
     }
 }
